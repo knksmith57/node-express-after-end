@@ -1,0 +1,10 @@
+## ignore _everything_ by default. We enforce a whitelist.
+*
+
+!.npmignore
+!package.json
+
+!CHANGELOG.md
+!README.md
+
+!index.js

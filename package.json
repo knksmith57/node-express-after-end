@@ -1,0 +1,29 @@
+{
+  "name": "express-after-end",
+  "version": "0.0.0",
+  "description": "express middleware for taking action after a request has ended",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Kyle Smith",
+      "email": "kbsmith@rmn.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "_mocha --require should --recursive --bail test",
+    "lint": "standard"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4",
+    "mocha": "^2.4",
+    "should": "^8.2",
+    "standard": "^6.0",
+    "supertest": "^1.2.0"
+  }
+}
