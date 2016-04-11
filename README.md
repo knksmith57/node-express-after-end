@@ -36,6 +36,20 @@ app.listen(80);
 ```
 
 
+## api
+### afterEnd(fn, [before=false])
+`fn` is the function to call on the request `end` event; it is called using with the following signature:
+
+```
+function fn (req, res) {
+  // ...
+}
+```
+
+`before` determines whether `fn` will be invoked _before_ the next `end` handler or after. The default is after,
+resulting in FIFO ordering of invokations.
+
+
 ## ?
 Questions / comments / concerns? --> [@knksmith57][1]
 
