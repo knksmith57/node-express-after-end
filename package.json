@@ -1,6 +1,6 @@
 {
   "name": "express-after-end",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "express middleware for taking action after a request has ended",
   "license": "MIT",
   "maintainers": [
