@@ -2,17 +2,22 @@
   "name": "express-after-end",
   "version": "1.0.1",
   "description": "express middleware for taking action after a request has ended",
-  "license": "MIT",
+  "keywords": [
+    "express",
+    "middleware",
+    "hook"
+  ],
+  "author": "Kyle Smith <knksmith57@gmail.com>",
+  "repository": {
+    "url": "https://github.com/knksmith57/node-express-after-end",
+    "type": "git"
+  },
   "maintainers": [
     {
       "name": "Kyle Smith",
-      "email": "kbsmith@rmn.com"
+      "email": "knksmith57@gmail.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "main": "index.js",
   "scripts": {
     "test": "_mocha --require should --recursive --bail test",
@@ -25,5 +30,6 @@
     "should": "^8.2",
     "standard": "^6.0",
     "supertest": "^1.2.0"
-  }
+  },
+  "license": "MIT"
 }
