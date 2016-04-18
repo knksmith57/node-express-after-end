@@ -1,6 +1,6 @@
 {
   "name": "express-after-end",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "express middleware for taking action after a request has ended",
   "keywords": [
     "express",
